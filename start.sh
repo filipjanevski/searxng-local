@@ -6,5 +6,5 @@ docker compose up -d
 
 echo ""
 echo "SearXNG is starting..."
-echo "Open: http://localhost:8080"
-echo "JSON API: http://localhost:8080/search?q=test&format=json"
+echo "Search page: http://localhost:9009"
+echo "JSON API: http://localhost:9009/search?q=test&format=json"

@@ -6,30 +6,139 @@ general:
 server:
   secret_key: "REPLACE_ME_WITH_A_SECRET_KEY"
   limiter: false
+  image_proxy: false
 
 search:
   safe_search: 1
+  favicon_resolver: "duckduckgo"
+  autocomplete: "duckduckgo"
+  default_lang: "auto"
   formats:
     - html
     - json
 
+ui:
+  default_locale: "en"
+
+outgoing:
+  default_doi_resolver: "doi.org"
+
 engines:
+  # ========== Enabled engines ==========
   - name: google
-    engine: google
-    shortcut: g
+    disabled: false
 
   - name: duckduckgo
-    engine: duckduckgo
-    shortcut: ddg
+    disabled: false
 
   - name: qwant
-    engine: qwant
-    shortcut: qw
+    disabled: false
 
   - name: wikipedia
-    engine: wikipedia
-    shortcut: wp
+    disabled: false
 
   - name: dbpedia
-    engine: dbpedia
-    shortcut: db
+    disabled: false
+
+  - name: apple app store
+    disabled: false
+
+  - name: duckduckgo weather
+    disabled: false
+
+  - name: fdroid
+    disabled: false
+
+  - name: gitlab
+    disabled: false
+
+  - name: codeberg
+    disabled: false
+
+  - name: gitea.com
+    disabled: false
+
+  - name: google play apps
+    disabled: false
+
+  - name: material icons
+    disabled: false
+
+  - name: huggingface
+    disabled: false
+
+  - name: huggingface datasets
+    disabled: false
+
+  - name: npm
+    disabled: false
+
+  - name: ollama
+    disabled: false
+
+  - name: reddit
+    disabled: false
+
+  - name: rottentomatoes
+    disabled: false
+
+  - name: selfhst icons
+    disabled: false
+
+  - name: steam
+    disabled: false
+
+  - name: mojeek news
+    disabled: false
+
+  - name: sourcehut
+    disabled: false
+
+  - name: pkg.go.dev
+    disabled: false
+
+  # ========== Disabled engines ==========
+  - name: brave
+    disabled: true
+
+  - name: bt4g
+    disabled: true
+
+  - name: chefkoch
+    disabled: true
+
+  - name: hoogle
+    disabled: true
+
+  - name: karmasearch
+    disabled: true
+
+  - name: karmasearch images
+    disabled: true
+
+  - name: karmasearch videos
+    disabled: true
+
+  - name: karmasearch news
+    disabled: true
+
+  - name: kickass
+    disabled: true
+
+  - name: lemmy communities
+    disabled: true
+
+  - name: lemmy users
+    disabled: true
+
+  - name: lemmy posts
+    disabled: true
+
+  - name: lemmy comments
+    disabled: true
+
+  - name: piratebay
+    disabled: true
+
+  - name: solidtorrents
+    disabled: true

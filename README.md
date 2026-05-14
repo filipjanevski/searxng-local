@@ -27,8 +27,8 @@ SearXNG will be available at http://localhost:8080
 
 | Endpoint                                          | Description |
 | ------------------------------------------------- | ----------- |
-| `http://localhost:8080`                           | Web UI      |
-| `http://localhost:8080/search?q=test&format=json` | JSON API    |
+| `http://localhost:9009`                           | Web UI      |
+| `http://localhost:9009/search?q=test&format=json` | JSON API    |
 
 ## Configuration
 
