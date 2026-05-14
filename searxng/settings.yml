@@ -25,43 +25,25 @@ outgoing:
 
 engines:
   # ========== Enabled engines ==========
-  - name: google
-    disabled: false
-
-  - name: duckduckgo
-    disabled: false
-
-  - name: qwant
-    disabled: false
-
-  - name: wikipedia
+  - name: codeberg
     disabled: false
 
   - name: dbpedia
     disabled: false
 
-  - name: apple app store
+  - name: duckduckgo
     disabled: false
 
   - name: duckduckgo weather
     disabled: false
 
-  - name: fdroid
+  - name: gitea.com
     disabled: false
 
   - name: gitlab
     disabled: false
 
-  - name: codeberg
-    disabled: false
-
-  - name: gitea.com
-    disabled: false
-
-  - name: google play apps
-    disabled: false
-
-  - name: material icons
+  - name: google
     disabled: false
 
   - name: huggingface
@@ -70,13 +52,22 @@ engines:
   - name: huggingface datasets
     disabled: false
 
+  - name: material icons
+    disabled: false
+
+  - name: mojeek news
+    disabled: false
+
   - name: npm
     disabled: false
 
   - name: ollama
     disabled: false
 
-  - name: reddit
+  - name: pkg.go.dev
+    disabled: false
+
+  - name: qwant
     disabled: false
 
   - name: rottentomatoes
@@ -85,19 +76,28 @@ engines:
   - name: selfhst icons
     disabled: false
 
-  - name: steam
-    disabled: false
-
-  - name: mojeek news
-    disabled: false
-
   - name: sourcehut
     disabled: false
 
-  - name: pkg.go.dev
+  - name: steam
+    disabled: false
+
+  - name: wikipedia
     disabled: false
 
   # ========== Disabled engines ==========
+  - name: apple app store
+    disabled: true
+
+  - name: arch linux wiki
+    disabled: true
+
+  - name: arxiv
+    disabled: true
+
+  - name: bandcamp
+    disabled: true
+
   - name: brave
     disabled: true
 
@@ -105,6 +105,21 @@ engines:
     disabled: true
 
   - name: chefkoch
+    disabled: true
+
+  - name: fdroid
+    disabled: true
+
+  - name: genius
+    disabled: true
+
+  - name: gentoo
+    disabled: true
+
+  - name: google play apps
+    disabled: true
+
+  - name: google scholar
     disabled: true
 
   - name: hoogle
@@ -116,29 +131,74 @@ engines:
   - name: karmasearch images
     disabled: true
 
-  - name: karmasearch videos
+  - name: karmasearch news
     disabled: true
 
-  - name: karmasearch news
+  - name: karmasearch videos
     disabled: true
 
   - name: kickass
     disabled: true
 
-  - name: lemmy communities
+  - name: lemmy comments
     disabled: true
 
-  - name: lemmy users
+  - name: lemmy communities
     disabled: true
 
   - name: lemmy posts
     disabled: true
 
-  - name: lemmy comments
+  - name: lemmy users
+    disabled: true
+
+  - name: mastodon hashtags
+    disabled: true
+
+  - name: mastodon users
+    disabled: true
+
+  - name: mixcloud
+    disabled: true
+
+  - name: openairedatasets
+    disabled: true
+
+  - name: openairepublications
+    disabled: true
+
+  - name: pdbe
     disabled: true
 
   - name: piratebay
     disabled: true
 
+  - name: pubmed
+    disabled: true
+
+  - name: radio browser
+    disabled: true
+
+  - name: reddit
+    disabled: true
+
+  - name: semantic scholar
+    disabled: true
+
   - name: solidtorrents
+    disabled: true
+
+  - name: soundcloud
+    disabled: true
+
+  - name: tootfinder
+    disabled: true
+
+  - name: wikicommons.audio
+    disabled: true
+
+  - name: wikicommons.files
+    disabled: true
+
+  - name: youtube
     disabled: true
