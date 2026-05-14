@@ -21,7 +21,7 @@ Or manually:
 docker compose up -d
 ```
 
-SearXNG will be available at http://localhost:8080
+SearXNG will be available at http://localhost:9009
 
 ## Endpoints
 
